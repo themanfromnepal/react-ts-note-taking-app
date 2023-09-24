@@ -122,6 +122,9 @@ export function NoteList({
           </Col>
         ))}
       </Row>
+      <Stack className="d-flex justify-content-center align-items-center fixed-bottom">
+        <h6>Akash Phago- The Man From Nepal</h6>
+      </Stack>
       <EditTagsModal
         availableTags={availableTags}
         handleClose={() => setEditTagsModalIsOpen(false)}
