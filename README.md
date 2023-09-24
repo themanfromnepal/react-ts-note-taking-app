@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Welcome to Note Taking App.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Note Taking App is built in React using TypeScript. It is built using react-bootsrap styling with packages like:
 
-Currently, two official plugins are available:
+- react-router-dom: for navigation purpose
+- react-select: for creating dynamic select type input
+- react-markdown: to display markdown files
+- uuid : to create Unique id for tags and files
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Create Note
 
-## Expanding the ESLint configuration
+Create button placed on the top-right of Home page will direct to Create Note page where you can fil the required form to create new note.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Edit or Delete Note
 
-- Configure the top-level `parserOptions` property like this:
+First click on the Note that you want to edit. It will direct you to that Note page. Then click on Edit or Delete button for the action you are looking for.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Edit or Delete Tags
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Click on Edit Tags Button placed on top-right corner of Home Page(Notes). A bootstrap modal will appear with list of Tags with option to edit and delete.
+
+# Any Questions
+
+Play around the app and you can find the answer you are looking for.
+Cheers!
+
+**Akash Phago- The Man From Nepal**
